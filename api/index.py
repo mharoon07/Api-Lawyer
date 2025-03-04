@@ -205,7 +205,7 @@ def classify_case(case_description):
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Welcome to the Case Study Analyzer API!", "status": "running"})
+    return jsonify({"message": "Welcome to the Case Analyzer API!", "status": "running"})
 
 @app.route('/analyze-case', methods=['POST'])
 def analyze_case():
