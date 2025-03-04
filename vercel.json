@@ -1,5 +1,4 @@
 {
-<<<<<<< Updated upstream
   "version": 2,
   "builds": [
     {
@@ -11,19 +10,3 @@
     { "src": "/(.*)", "dest": "/api/index.py" }
   ]
 }
-=======
-    "version": 2,
-    "builds": [
-      {
-        "src": "api/index.py",
-        "use": "@vercel/python"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "app.py"
-      }
-    ]
-  }
->>>>>>> Stashed changes
